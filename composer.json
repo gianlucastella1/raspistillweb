@@ -1,0 +1,16 @@
+{
+    "name": "gianlucastella1/raspistillweb",
+    "description": "Simple and responsive web interface to raspistill command utility (Raspberry Camera)",
+    "require": {
+        "cvuorinen/raspicam-php": "dev-master",
+        "twbs/bootstrap": "^3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gianluca Stella",
+            "email": "gianluca.stella@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
