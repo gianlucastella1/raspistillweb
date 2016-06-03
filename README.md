@@ -6,7 +6,12 @@ Code is not ready for production. I started this project because needed a simple
 TODO in code.
 
 # Setup hints
-Your web server has to be able to execute raspistill. So, please ensure that web server's user is within the video group. If you use apache2, add www-data user with command
+You need a webserver and PHP5 installed on your Raspberry Pi.
+Start cloning this repository, then install dependencies via composer
+```bash
+composer install
+```
+Your webserver has to be able to execute raspistill. Please ensure webserver's user is within the video group. If you use apache2, add www-data user with the command
 ```bash
 usermod -a -G video www-data
 ```
