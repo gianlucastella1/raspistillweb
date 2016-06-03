@@ -3,7 +3,8 @@
     "description": "Simple and responsive web interface to raspistill command utility (Raspberry Camera)",
     "require": {
         "cvuorinen/raspicam-php": "dev-master",
-        "twbs/bootstrap": "^3.3"
+        "twbs/bootstrap": "^3.3",
+	"components/jquery": "^2.2.4"
     },
     "license": "MIT",
     "authors": [
